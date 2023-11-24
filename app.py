@@ -23,5 +23,46 @@ if user_menu == 'Medal Tally':
     selected_year=st.sidebar.selectbox("Select Year", years)
     selected_country=st.sidebar.selectbox("Select Country", country)
 
-    medal_tally = helper.medal_tally(df)
-    st.dataframe(medal_tally)
+    
+    medal_tally = helper.fetch_medal_tally(df,selected_year,selected_country)
+    if selected_year=='Overall' and selected_country=='Overall':
+        st.title("Overall Tally")
+    if selected_year!='Overall' and selected_country=='Overall':
+        st.title("Medal Tally in " + str(selected_year)+ " Olympics")
+    if selected_year=='Overall' and selected_country!='Overall':
+        st.title(selected_country +" Overall Performance" )
+    if selected_year!='Overall' and selected_country!='Overall':
+        st.title(selected_country + " performance in " + str(selected_year))
+    st.table(medal_tally)
+
+
+if user_menu=='Overall Tally':
+    editions = df['Year'].unique().shape[0]-1
+    cities = df['City'].unique().shape[0]
+    sports = df['Sport'].unique().shape[0]
+    events = df['Event'].unique().shape[0]
+    athletes = df['Name'].unique().shape[0]
+    nations = df['region'].unique().shape[0]
+
+    st.title("Top Statistics")
+    col1,col2,col3 = st.columns(3)
+    with col1:
+        st.header("Editions")
+        st.title(editions)
+    with col2:
+        st.header("Hosts")
+        st.title(cities)
+    with col3:
+        st.header("Sports")
+        st.title(sports)
+
+    col1,col2,col3 = st.columns(3)
+    with col1:
+        st.header("Events")
+        st.title(events)
+    with col2:
+        st.header("Nations")
+        st.title(nations)
+    with col3:
+        st.header("Athletes")
+        st.title(athletes)
