@@ -1,6 +1,6 @@
 
 # Olympics Data Analysis Project
-!{olympic}(flag-Olympic-Games.webp)
+![olympic](flag-Olympic-Games.webp)
 
 ## Overview
 
