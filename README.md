@@ -1,6 +1,6 @@
 
 # Olympics Data Analysis Project
-![olympic](flag-Olympic-Games.webp)
+![olympic](screenshots/flag-Olympic-Games.webp)
 
 ## Overview
 
@@ -40,7 +40,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/olympics-data-analysis.git
+   git clone https://github.com/ghostridersahil/Olympics_data_analysis_with_user_interface
    ```
 
 2. Install the required dependencies:
@@ -71,8 +71,8 @@ The analysis is based on data sourced from [your-data-source-link]. Please refer
 
 Include a few screenshots or visualizations from your project. For example:
 
-![Screenshot 1](1.png)
-![Screenshot 2](2.png)
+![Screenshot 1](screenshots/1.png)
+![Screenshot 2](screenshots/2.png)
 
 ## Contributing
 
