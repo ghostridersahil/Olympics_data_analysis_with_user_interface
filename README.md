@@ -24,7 +24,7 @@ The goal of this project is to provide insights into the historical data of the 
 
 ## Live Demo
 
-Check out the live demo of the project [here](#https://olympicsdataanalysiswithuserinterface-awejsfpzrruxr9f9uu8ugk.streamlit.app/)
+Check out the live demo of the project [here](https://olympicsdataanalysiswithuserinterface-awejsfpzrruxr9f9uu8ugk.streamlit.app/)
 
 ## Features
 
