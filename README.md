@@ -1,6 +1,6 @@
 
 # Olympics Data Analysis Project
-![olympic](screenshots/flag-Olympic-Games.webp)
+![olympic](/screenshots/flag-Olympic-Games.webp)
 
 ## Overview
 
@@ -71,8 +71,8 @@ The analysis is based on data sourced from [your-data-source-link]. Please refer
 
 Include a few screenshots or visualizations from your project. For example:
 
-![Screenshot 1](screenshots/1.png)
-![Screenshot 2](screenshots/2.png)
+![Screenshot 1](/screenshots/1.png)
+![Screenshot 2](/screenshots/2.png)
 
 ## Contributing
 
