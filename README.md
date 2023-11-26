@@ -1,6 +1,6 @@
 
 # Olympics Data Analysis Project
-(https://cdn11.bigcommerce.com/s-2lbnjvmw4d/images/stencil/original/products/4421/5366/olympicsflag1__19023.1632226115.jpg)
+!(https://cdn11.bigcommerce.com/s-2lbnjvmw4d/images/stencil/original/products/4421/5366/olympicsflag1__19023.1632226115.jpg)
 
 ## Overview
 
