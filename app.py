@@ -13,6 +13,7 @@ region_df=pd.read_csv('noc_regions.csv')
 df=preprocessor.preprocess(df,region_df)
 
 st.sidebar.title("Olympics Analysis till 2016")
+st.sidebar.image('https://cdn11.bigcommerce.com/s-2lbnjvmw4d/images/stencil/original/products/4421/5366/olympicsflag1__19023.1632226115.jpg')
 user_menu = st.sidebar.radio(
     'Select an Option',
     ('Medal Tally','Overall Analysis','Country-wise Analysis','Athelete wise Analysis')
